@@ -5,7 +5,7 @@
         <template slot="links">
             <sidebar-item :link="{
             name: '风电行业大数据报告',
-            path: '/windPowerDataReport',
+            path: '/dataReport',
             icon: 'ni ni-tv-2 text-primary',
           }">
             </sidebar-item>

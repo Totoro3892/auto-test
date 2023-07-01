@@ -58,14 +58,46 @@
             <div class="px-2 py-2" style="width: 1600px;">
               <b-row>
                 <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
-                  <div class="card news-card" @click="go('https://www.baidu.com')">
+                  <div class="card news-card" @click="go('http://www.nea.gov.cn/2022-10/09/c_1310668927.htm')">
                     <img
                       style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
-                      src="https://kkkzoz-1304409899.cos.ap-chengdu.myqcloud.com/img/5c7a5074a7500.jpg"
+                      src="../assets/images/news-1.jpg"
                       alt="Card image cap" />
                     <div class="card-body pb-1">
                       <p class="text-center text-wrap">
-                        《关于做好2023年电力长中期合同签订履约工作的通知》
+                        《能源碳达峰碳中和标准化提升行动计划》的通知
+                      </p>
+                      <b-row align-h="end">
+                        <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年10月</b-col>
+                      </b-row>
+                    </div>
+                  </div>
+                </b-col>
+                <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
+                  <div class="card news-card" @click="go('https://www.gov.cn/zhengce/zhengceku/2022-08/29/content_5707333.htm')">
+                    <img
+                      style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
+                      src="../assets/images/news-2.jpg"
+                      alt="Card image cap" />
+                    <div class="card-body pb-1">
+                      <p class="text-center text-wrap">
+                        《加快电力装备绿色低碳创新发展行动计划》的通知
+                      </p>
+                      <b-row align-h="end">
+                        <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年8月</b-col>
+                      </b-row>
+                    </div>
+                  </div>
+                </b-col>
+                <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
+                  <div class="card news-card" @click="go('https://www.gov.cn/zhengce/2022-12/14/content_5732067.htm')">
+                    <img
+                      style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
+                      src="../assets/images/news-3.jpg"
+                      alt="Card image cap" />
+                    <div class="card-body pb-1">
+                      <p class="text-center text-wrap">
+                        《扩大内需战略规划纲要（2022－2035年）》的通知
                       </p>
                       <b-row align-h="end">
                         <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年12月</b-col>
@@ -74,46 +106,14 @@
                   </div>
                 </b-col>
                 <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
-                  <div class="card news-card" @click="go(www.baidu.com)">
+                  <div class="card news-card" @click="go('https://www.askci.com/news/chanye/20230317/165534267904331811148885.shtml')">
                     <img
                       style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
-                      src="https://kkkzoz-1304409899.cos.ap-chengdu.myqcloud.com/img/5c7a5074a7500.jpg"
+                      src="../assets/images/news-4.jpg"
                       alt="Card image cap" />
                     <div class="card-body pb-1">
                       <p class="text-center text-wrap">
-                        《关于做好2023年电力长中期合同签订履约工作的通知》
-                      </p>
-                      <b-row align-h="end">
-                        <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年12月</b-col>
-                      </b-row>
-                    </div>
-                  </div>
-                </b-col>
-                <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
-                  <div class="card news-card" @click="go(123)">
-                    <img
-                      style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
-                      src="https://kkkzoz-1304409899.cos.ap-chengdu.myqcloud.com/img/5c7a5074a7500.jpg"
-                      alt="Card image cap" />
-                    <div class="card-body pb-1">
-                      <p class="text-center text-wrap">
-                        《关于做好2023年电力长中期合同签订履约工作的通知》
-                      </p>
-                      <b-row align-h="end">
-                        <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年12月</b-col>
-                      </b-row>
-                    </div>
-                  </div>
-                </b-col>
-                <b-col xl="3" md="3" sm="3" cols="3" style="height: 20rem;">
-                  <div class="card news-card" @click="go(123)">
-                    <img
-                      style="height: 8rem; border-top-left-radius: var(--radius-3);border-top-right-radius: var(--radius-3);"
-                      src="https://kkkzoz-1304409899.cos.ap-chengdu.myqcloud.com/img/5c7a5074a7500.jpg"
-                      alt="Card image cap" />
-                    <div class="card-body pb-1">
-                      <p class="text-center text-wrap">
-                        《关于做好2023年电力长中期合同签订履约工作的通知》
+                        《2023年中国风电产业市场前景及投资研究报告》
                       </p>
                       <b-row align-h="end">
                         <b-col cols="6" style="text-align:right;color: var(--blue-6);">2022年12月</b-col>
@@ -182,7 +182,7 @@ export default {
   methods: {
     go(address) {
       console.log(address);
-      window.location.href = address;
+      window.open(address);
     },
     format(value) {
       return value.toFixed(2);
@@ -314,14 +314,11 @@ export default {
           label: {
             show: false,
             position: "center",
-            normal: {
-              formatter: "{b}: {d}%"
-            }
           },
           emphasis: {
             label: {
               show: true,
-              fontSize: 40,
+              fontSize: 20,
               fontWeight: "bold"
             }
           },
